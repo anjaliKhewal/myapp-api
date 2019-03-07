@@ -1,0 +1,22 @@
+# Eclipse
+.classpath
+.project
+.buildpath
+.settings/
+
+# Java
+*.class
+# packages
+*.jar
+*.war
+*.ear
+
+# GIT
+.git/
+
+# Logging
+*.log
+
+# Maven
+log/
+target/
