@@ -11,9 +11,9 @@ public class LoginManagerImpl implements LoginManager{
 	@Autowired
 	LoginService loginService;
 	
-	public boolean login(int id) {
+	public boolean login(String username) {
 		
-		return loginService.login(id);
+		return loginService.login(username);
 	}
 
 

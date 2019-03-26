@@ -11,9 +11,11 @@ public class LoginServiceImpl implements LoginService{
 	@Autowired
 	LoginRepository repo;
 	
-	public boolean login(int id) {
+	public boolean login(String username) {
 		
-		User user = repo.findById(id);
+		//User user = repo.findById(id);
+		User user = repo.findByUsername(username);
+		if(user!=null)
 		System.out.println(user.getId()+"  "+ user.getUsername());
 		
 		boolean res =  user!=null ? true:false;

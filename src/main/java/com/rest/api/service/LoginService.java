@@ -2,6 +2,6 @@ package com.rest.api.service;
 
 public interface LoginService {
 
-	boolean login(int id);
+	boolean login(String username);
 
 }

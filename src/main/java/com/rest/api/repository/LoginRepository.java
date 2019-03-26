@@ -7,5 +7,5 @@ import com.rest.api.model.User;
 public interface LoginRepository extends JpaRepository<User, Integer>{
 	
 	User findById(int id);
-
+	User findByUsername(String username);
 }
