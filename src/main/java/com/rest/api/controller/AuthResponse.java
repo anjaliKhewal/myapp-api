@@ -21,6 +21,9 @@ public class AuthResponse {
 		this.code = code;
 		this.message = message;
 	}
+	public AuthResponse() {
+		
+	}
 	
 	
 }
