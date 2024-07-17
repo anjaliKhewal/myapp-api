@@ -3,6 +3,7 @@
 .project
 .buildpath
 .settings/
+.idea/
 
 # Java
 *.class
